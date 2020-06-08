@@ -1,6 +1,5 @@
 ---
-permalink: /url/
+permalink: /URLs/
 ---
 
-
-Test href slurrppp!!!
+* [Homepage](../)
