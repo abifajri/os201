@@ -1,4 +1,4 @@
-Script started, file is 0001-mytest.txt
+Script started on Thu 04 Jun 2020 08:01:42 PM WIB
 abi.fajri@badak:~$ PS1="$ "
 $ echo $GitHubUser
 abifajri
@@ -22,4 +22,4 @@ sub   4096R/44170902 2020-02-13 [expires: 2021-02-12]
 
 200604-200609-05de-abi.fajri/> exit
 exit
-Script done, file is 0001-mytest.txt
+Script done on Thu 04 Jun 2020 08:06:34 PM WIB
