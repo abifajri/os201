@@ -1,0 +1,37 @@
+Script started on Mon 08 Jun 2020 05:33:52 PM WIB
+abi.fajri@badak:~$ PS1="$ "
+$ echo $GitHubUser
+abifajri
+$ echo $PSTAMP
+TMP1="$(date +%y%m%d-%H%M%S)"; TMP2="$(echo $TMP1-$GitHubUser-${PWD##*/}|sha1sum|cut -c1-4)"; echo "$TMP1-$TMP2-${PWD##*/}/> ";
+$ eval $PSTAMP
+200608-173410-b940-abi.fajri/>
+$ PS1="\$(eval \$PSTAMP)"
+200608-173415-6cc3-abi.fajri/> echo -e $CEKSAYA
+abifajri ZCZCSCRIPTSTART 200604-200142 abifajri
+abifajri abifajri 200604-200549-5e3d-abi.fajri/ 200604-200549 SEQOK SUMOK 5e3d7c44
+abifajri abifajri 200604-200553-85b3-abi.fajri/ 200604-200553 SEQOK SUMOK 85b3bf09
+abifajri abifajri 200604-200558-fe28-abi.fajri/ 200604-200558 SEQOK SUMOK fe288a0a
+abifajri abifajri 200604-200609-05de-abi.fajri/ 200604-200609 SEQOK SUMOK 05deea2a
+abifajri ZCZCSCRIPTSTOP 200604-200634 SEQOK
+
+200608-173425-ab45-abi.fajri/> echo -e $CEKSEBELA1
+abifajri ZCZCSCRIPTSTART 200528-182034 aceyoga
+abifajri aceyoga 200528-182057-5198-UAS/ 200528-182057 SEQOK SUMOK 519870cb
+abifajri aceyoga 200528-182103-2e75-UAS/ 200528-182103 SEQOK SUMOK 2e755e53
+abifajri aceyoga 200528-182112-56d9-UAS/ 200528-182112 SEQOK SUMOK 56d9c45a
+abifajri aceyoga 200528-182120-fdc9-UAS/ 200528-182120 SEQOK SUMOK fdc93c51
+abifajri ZCZCSCRIPTSTOP 200528-182140 SEQOK
+
+200608-173433-6090-abi.fajri/> echo -e $CEKSEBELA2
+abifajri ZCZCSCRIPTSTART 200608-125733 adhytianara
+abifajri adhytianara 200608-125754-39ef-UAS/ 200608-125754 SEQOK SUMOK 39efa335
+abifajri adhytianara 200608-125804-8dc1-UAS/ 200608-125804 SEQOK SUMOK 8dc1325a
+abifajri adhytianara 200608-125816-1a7d-UAS/ 200608-125816 SEQOK SUMOK 1a7def85
+abifajri adhytianara 200608-125822-a232-UAS/ 200608-125822 SEQOK SUMOK a23268d7
+abifajri ZCZCSCRIPTSTOP 200608-125733 SEQOK
+
+200608-173442-f285-abi.fajri/> exit
+exit
+
+Script done on Mon 08 Jun 2020 05:34:48 PM WIB
